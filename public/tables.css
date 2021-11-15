@@ -1,0 +1,33 @@
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td {
+  overflow: hidden;
+}
+
+
+.app-table {}
+
+.app-table__caption,
+.app-table__row {
+  height: 50px;
+  line-height: 50px;
+}
+
+.app-table__caption {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.app-table__row {
+  display: flex;
+  padding: 0 2%;
+  border-bottom: 1px solid lightgrey;
+}
+
+.app-table__row:first-of-type {
+  font-weight: bold;
+}
